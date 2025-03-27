@@ -21,6 +21,7 @@
 #     # Open the image
 #     image = Image.open(mask_path).convert("L")
     
+
 #     # Convert to numpy array
 #     mask_array = np.array(image)
     

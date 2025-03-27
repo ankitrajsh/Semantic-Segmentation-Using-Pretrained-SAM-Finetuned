@@ -21,6 +21,7 @@ import monai
 !pip install -q monai
 !pip install matplotlib
 
+
 # Assuming you have paths to your image and mask directories
 image_dir = 'C:/Users/Nishith/Downloads/New_train_Patches'
 mask_dir = 'G:/New_VOC_Label_Patches'

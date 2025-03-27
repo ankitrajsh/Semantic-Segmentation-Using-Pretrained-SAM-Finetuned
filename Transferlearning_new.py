@@ -25,6 +25,7 @@ transform = T.Compose([
     T.ToTensor()
 ])
 
+
 # 🔹 Custom Dataset for Semantic Segmentation
 class SegmentationDataset(Dataset):
     def __init__(self, image_dir, mask_dir, transform=None):

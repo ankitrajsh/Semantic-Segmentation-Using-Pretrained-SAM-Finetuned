@@ -13,6 +13,7 @@ import torch
 from tqdm import tqdm
 from statistics import mean
 
+
 # Dataset class
 class SAMDataset(Dataset):
     def __init__(self, dataset, processor):

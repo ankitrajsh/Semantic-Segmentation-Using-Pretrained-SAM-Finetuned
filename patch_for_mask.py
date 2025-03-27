@@ -16,6 +16,7 @@ os.makedirs('patches/masks2', exist_ok=True)
 # Mask classes to be processed
 mask_classes = ['G3_Mask', 'G4_Mask', 'Normal_Mask', 'Stroma_Mask']
 
+
 # Handle masks for each mask class
 for mask_class in mask_classes:
     mask_file = os.path.join(mask_folder, f'{mask_class}.tif')

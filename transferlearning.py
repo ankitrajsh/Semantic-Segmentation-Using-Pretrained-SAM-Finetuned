@@ -15,6 +15,7 @@ from tqdm import tqdm
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using {device}")
 
+
 # Dataset Class
 class SegmentationDataset(Dataset):
     def __init__(self, image_paths, mask_paths):

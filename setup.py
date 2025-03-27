@@ -7,6 +7,7 @@
 !pip install git+https://github.com/facebookresearch/segment-anything.git
 !pip install -q git+https://github.com/huggingface/transformers.git
 
+
 from datasets import Dataset
 from PIL import Image
 import os

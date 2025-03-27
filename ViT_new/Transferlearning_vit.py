@@ -20,6 +20,7 @@ from tensorflow.keras.metrics import MeanIoU
 from sklearn.model_selection import train_test_split
 import cv2
 
+
 #Block 2 directories of the dataset
 # Define dataset paths
 # image_dir = 'C:/Users/Nishith/Downloads/New_train_Patches'
