@@ -1,0 +1,2 @@
+   mkdir SemanticSegmentationProject
+   cd SemanticSegmentationProject
